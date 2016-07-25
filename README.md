@@ -17,3 +17,8 @@ By capturing the transmitted data from the remote, and interpretating a short si
 
 
 The pattern is repeatedly transmitted as long as the button is pressed. The transmission lasts for about 50ms, with a pause of about 15ms between each transmission.
+
+## Signal capture
+A simple GNU Radio block diagram is used to capture the signals. The complex to mag block demodulates the on-off keyed signal.
+
+![alt tag](https://raw.githubusercontent.com/gbThreepwood/winchRemote/master/signal-capture.grc.png)
